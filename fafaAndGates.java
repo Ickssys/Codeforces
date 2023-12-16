@@ -42,10 +42,9 @@ public class FafaAndGates //problem name here
     }
 
     static String next() throws IOException {
-        while (st == null || !st.hasMoreTokens()){ st = new StringTokenizer(in.readLine());
-        return st.nextToken();}
-        return null;
-    }
+        while (st == null || !st.hasMoreTokens()){ st = new StringTokenizer(in.readLine());}
+        return st.nextToken();
+    } 
 
     // read input as integer
     static int nextInt() throws IOException {return Integer.parseInt(next());}
